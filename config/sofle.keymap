@@ -86,7 +86,7 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE  &kp N1    &kp N2           &kp N3        &kp N4        &kp N5                                    &kp N6     &kp N7         &kp N8        &kp N9           &kp N0  &mo 0
+&kp GRAVE  &kp N1    &kp N2           &kp N3        &kp N4        &kp N5                                    &kp N6     &kp N7         &kp N8        &kp N9           &kp N0  &mo 4
 &kp TAB    &kp SQT   &kp COMMA        &kp DOT       &kp P         &kp Y                                     &kp F      &kp G          &kp C         &kp R            &kp L   &kp DELETE
 &kp LSHFT  &kp A     &hml LEFT_ALT O  &hml LCTRL E  &hml LSHFT U  &kp I                                     &kp D      &hmr RSHIFT H  &hmr RCTRL T  &hmr LEFT_ALT N  &kp S   &kp RCTRL
 &kp LCTRL  &kp SEMI  &kp Q            &kp J         &kp K         &kp X          &kp C_MUTE    &none        &kp B      &kp M          &kp W         &kp V            &kp Z   &kp RSHFT

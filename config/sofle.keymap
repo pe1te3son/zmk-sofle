@@ -10,6 +10,19 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
+  macros {
+        to_base: to_base {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &rgb_ug RGB_COLOR_HSB(0,100,50)>;
+        };
+
+        to_gaming: to_gaming {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 3 &rgb_ug RGB_COLOR_HSB(300,100,50)>;
+        };
+    };
     behaviors {
         hmr: hmr {
             compatible = "zmk,behavior-hold-tap";
@@ -132,7 +145,7 @@
 &kp T      &kp TAB    &kp Q   &kp W   &kp E     &kp R                          &kp Y   &kp U   &kp I      &kp O    &kp P     &kp F12
 &kp G      &kp LSHFT  &kp A   &kp S   &kp D     &kp F                          &kp H   &kp J   &kp K      &kp L    &kp SEMI  &trans
 &kp B      &kp LCTRL  &kp Z   &kp X   &kp C     &kp V      &trans     &trans   &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
-                      &trans  &trans  &kp LALT  &kp SPACE  &kp ESC    &kp RET  &trans  &trans  &trans     &to 0
+                      &trans  &trans  &kp LALT  &kp SPACE  &kp ESC    &kp RET  &trans  &trans  &to 0      &trans
             >;
 
             sensor-bindings =

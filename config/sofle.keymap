@@ -26,6 +26,32 @@
         };
     };
 
+    macros {
+        to_base: to_base {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&rgb_ug RGB_COLOR_HSB(0,100,50) &to 0>;
+        };
+
+        to_lower: to_lower {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&rgb_ug RGB_COLOR_HSB(120,100,50) &to 1>;
+        };
+
+        to_raise: to_raise {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&rgb_ug RGB_COLOR_HSB(240,100,50) &to 2>;
+        };
+
+        to_gaming: to_gaming {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&rgb_ug RGB_COLOR_HSB(300,100,50) &to 3>;
+        };
+    };
+
     behaviors {
         hmr: hmr {
             compatible = "zmk,behavior-hold-tap";

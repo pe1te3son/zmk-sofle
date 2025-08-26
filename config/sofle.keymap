@@ -30,7 +30,7 @@
         to_base: to_base {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_COLOR_HSB(0,100,50) &to 0>;
+            bindings = <&to 0 &rgb_ug RGB_COLOR_HSB(0,100,50)>;
         };
 
         mo_2: to_lower {
@@ -48,7 +48,7 @@
         to_gaming: to_gaming {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_COLOR_HSB(300,100,50) &to 3>;
+            bindings = <&to 3 &rgb_ug RGB_COLOR_HSB(300,100,50)>;
         };
     };
 
@@ -116,7 +116,7 @@
 &kp TAB    &kp SQT   &kp COMMA        &kp DOT       &kp P         &kp Y                                     &kp F      &kp G          &kp C         &kp R            &kp L   &kp DELETE
 &kp LSHFT  &kp A     &hml LEFT_ALT O  &hml LCTRL E  &hml LSHFT U  &kp I                                     &kp D      &hmr RSHIFT H  &hmr RCTRL T  &hmr LEFT_ALT N  &kp S   &kp RCTRL
 &kp LCTRL  &kp SEMI  &kp Q            &kp J         &kp K         &kp X          &kp C_MUTE    &none        &kp B      &kp M          &kp W         &kp V            &kp Z   &kp RSHFT
-                     &mo_1            &mo_2         &kp LALT      &kp BACKSPACE  &lt 2 ESC     &lt 1 ENTER  &kp SPACE  &kp RCTRL      &mo 4         &to_gaming
+                     &trans           &trans        &kp LALT      &kp BACKSPACE  &lt 2 ESC     &lt 1 ENTER  &kp SPACE  &kp RCTRL      &mo 4         &to_gaming
             >;
 
             sensor-bindings =

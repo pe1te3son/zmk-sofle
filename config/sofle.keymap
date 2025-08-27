@@ -152,21 +152,6 @@
                 <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
                 <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
-
-        rgb {
-            label = "RGB";
-            bindings = <
-&rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans           &trans           &trans           &trans           &kp B                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans           &trans           &trans           &trans           &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans           &trans           &trans           &trans           &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                  &trans           &trans           &trans           &trans  &trans    &trans  &trans  &trans  &trans  &trans
-            >;
-
-            sensor-bindings =
-                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
-                <&inc_dec_kp PAGE_UP PAGE_DOWN>;
-        };
     };
 };
 

@@ -86,7 +86,7 @@
 &kp GRAVE  &kp N1    &kp N2           &kp N3        &kp N4        &kp N5                                    &kp N6     &kp N7         &kp N8        &kp N9           &kp N0  &kp EQUAL
 &kp TAB    &kp SQT   &kp COMMA        &kp DOT       &kp P         &kp Y                                     &kp F      &kp G          &kp C         &kp R            &kp L   &kp DELETE
 &kp LSHFT  &kp A     &hml LEFT_ALT O  &hml LCTRL E  &hml LSHFT U  &kp I                                     &kp D      &hmr RSHIFT H  &hmr RCTRL T  &hmr LEFT_ALT N  &kp S   &kp RIGHT_SHIFT
-&kp LCTRL  &kp SEMI  &kp Q            &kp J         &kp K         &kp X          &kp C_MUTE    &trans       &kp B      &kp M          &kp W         &kp V            &kp Z   &kp RIGHT_CONTROL
+&kp LCTRL  &kp SEMI  &kp Q            &kp J         &kp K         &kp X          &kp C_MUTE    &trans       &kp B      &kp M          &kp W         &kp V            &kp Z   &kp LEFT_META
                      &trans           &trans        &kp LALT      &kp BACKSPACE  &lt 2 ESC     &lt 1 ENTER  &kp SPACE  &kp RCTRL      &to_gaming    &trans
             >;
 

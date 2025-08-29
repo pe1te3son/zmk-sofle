@@ -133,7 +133,7 @@
 &rgb_ug RGB_TOG  &trans           &trans       &trans     &trans      &trans                         &trans          &trans         &trans            &trans                &trans                 &trans
 &rgb_ug RGB_EFF  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT                    &kp LCTRL       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &rgb_ug RGB_BRI  &kp GRAVE        &trans       &trans     &trans      &trans                         &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp QUESTION           &trans
-&rgb_ug RGB_BRD  &kp TILDE        &kp K_UNDO   &kp K_CUT  &kp K_COPY  &kp K_PASTE  &trans    &trans  &kp UNDERSCORE  &kp PLUS       &kp LEFT_BRACE    &pipedance            &backslash             &trans
+&rgb_ug RGB_BRD  &kp TILDE        &kp LC(Z)    &kp LC(X)  &kp LC(C)   &kp LC(V)    &trans    &trans  &kp UNDERSCORE  &kp PLUS       &kp LEFT_BRACE    &pipedance            &backslash             &trans
                                   &trans       &trans     &trans      &trans       &trans    &trans  &trans          &trans         &trans            &trans
             >;
 

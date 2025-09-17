@@ -19,7 +19,7 @@
         to_gaming: to_gaming {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 3 &rgb_ug RGB_COLOR_HSB(137,82,30)>;
+            bindings = <&to 3 &rgb_ug RGB_COLOR_HSB(137,100,37)>;
         };
 
         to_editing: to_editing {
@@ -167,11 +167,11 @@
         editing {
             label = "Editing";
             bindings = <
-&kp TILDE  &kp N1  &kp N2  &kp N3    &kp N4     &kp N5                        &kp F1  &kp F2  &kp F3     &kp F4   &kp F5    &kp F11
-&kp TAB    &kp Q   &kp W   &kp E     &kp R      &kp T                         &kp Y   &kp U   &kp I      &kp O    &kp P     &kp F12
-&kp LSHFT  &kp A   &kp S   &kp D     &kp F      &kp G                         &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp RSHFT
-&kp LCTRL  &kp Z   &kp X   &kp C     &kp V      &kp B     &trans     &trans   &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RCTRL
-                   &trans  &kp LALT  &kp SPACE  &kp BSPC  &kp ESC    &kp RET  &trans  &trans  &to_base   &trans
+&kp TILDE  &kp N1  &kp N2        &kp N3      &kp N4     &kp N5                        &kp F1  &kp F2  &kp F3     &kp F4    &kp F5    &kp F11
+&kp TAB    &kp Q   &kp W         &kp E       &kp R      &kp T                         &kp Y   &kp U   &kp I      &kp O     &kp P     &kp F12
+&kp LSHFT  &kp A   &kp S         &kp D       &kp F      &kp G                         &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp RSHFT
+&kp LCTRL  &kp Z   &kp X         &kp C       &kp V      &kp B     &trans     &trans   &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RCTRL
+                   &kp LEFT_ALT  &kp DELETE  &kp SPACE  &kp BSPC  &kp ESC    &kp RET  &trans  &trans  &trans     &to_base
             >;
 
             sensor-bindings =

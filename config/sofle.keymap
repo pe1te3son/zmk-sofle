@@ -94,7 +94,7 @@
 &kp TAB    &kp SQT   &kp COMMA        &kp DOT       &kp P         &kp Y                                     &kp F      &kp G          &kp C         &kp R            &kp L   &kp DELETE
 &kp LSHFT  &kp A     &hml LEFT_ALT O  &hml LCTRL E  &hml LSHFT U  &kp I                                     &kp D      &hmr RSHIFT H  &hmr RCTRL T  &hmr LEFT_ALT N  &kp S   &kp RIGHT_SHIFT
 &kp LCTRL  &kp SEMI  &kp Q            &kp J         &kp K         &kp X          &kp C_MUTE    &trans       &kp B      &kp M          &kp W         &kp V            &kp Z   &kp LEFT_META
-                     &trans           &trans        &kp LALT      &kp BACKSPACE  &lt 2 ESC     &lt 1 ENTER  &kp SPACE  &kp RCTRL      &to_gaming    &to_editing
+                     &trans           &to_editing   &kp LALT      &kp BACKSPACE  &lt 2 ESC     &lt 1 ENTER  &kp SPACE  &kp RCTRL      &to_gaming    &to_editing
             >;
 
             sensor-bindings =
@@ -167,11 +167,11 @@
         editing {
             label = "Editing";
             bindings = <
-&kp TILDE  &kp N1  &kp N2        &kp N3      &kp N4     &kp N5                        &kp F1  &kp F2  &kp F3     &kp F4    &kp F5    &kp F11
-&kp TAB    &kp Q   &kp W         &kp E       &kp R      &kp T                         &kp Y   &kp U   &kp I      &kp O     &kp P     &kp F12
-&kp LSHFT  &kp A   &kp S         &kp D       &kp F      &kp G                         &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp RSHFT
-&kp LCTRL  &kp Z   &kp X         &kp C       &kp V      &kp B     &trans     &trans   &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RCTRL
-                   &kp LEFT_ALT  &kp DELETE  &kp SPACE  &kp BSPC  &kp ESC    &kp RET  &trans  &trans  &trans     &to_base
+&kp TILDE  &kp N1  &kp N2        &kp N3    &kp N4      &kp N5                         &kp F1          &kp F2          &kp F3        &kp F4     &kp F5    &kp F11
+&kp TAB    &kp Q   &kp W         &kp E     &kp R       &kp T                          &kp Y           &kp U           &kp I         &kp O      &kp P     &kp F12
+&kp LSHFT  &kp A   &kp S         &kp D     &kp F       &kp G                          &kp H           &kp J           &kp K         &kp L      &kp SEMI  &kp RSHFT
+&kp LCTRL  &kp Z   &kp X         &kp C     &kp V       &kp B      &trans     &trans   &kp N           &kp M           &kp COMMA     &kp DOT    &kp FSLH  &kp RCTRL
+                   &kp LEFT_ALT  &to_base  &kp DELETE  &kp SPACE  &kp ESC    &kp RET  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT
             >;
 
             sensor-bindings =
